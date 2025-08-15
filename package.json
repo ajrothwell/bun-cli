@@ -1,5 +1,5 @@
 {
-  "name": "bun-cli",
+  "name": "@mugstorecowboy/bun-cli",
   "version": "0.0.7",
   "module": "index.ts",
   "type": "module",
