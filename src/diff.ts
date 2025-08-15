@@ -168,11 +168,11 @@ export const diff = async() => {
     // console.log('formattedJson:', formattedJson);
     
     // writeFile(`src/i18n/${languageCode}.json`, 'export default'+formattedJson, 'utf8', (err) => {
-    writeFile(`i18n/${languageCode}.json`, 'export default'+formattedJson, 'utf8', (err) => {
+    writeFile(`i18n/${languageCode}.js`, 'export default'+formattedJson, 'utf8', (err) => {
       if (err) {
         console.error('Error writing file:', err);
       }
-      console.log('File written successfully:', `${languageCode}.json`);
+      console.log('File written successfully:', `${languageCode}.js`);
     });
 
   });
