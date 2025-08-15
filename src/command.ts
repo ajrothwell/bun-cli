@@ -3,12 +3,12 @@ import { hideBin } from "yargs/helpers"
 
 yargs(hideBin(process.argv))
   .command(
-    "new <note>",
-    "Creates a new Note",
-    (yargs) => yargs.positional("note", {
-      description: "The content of the note",
+    "new <translate>",
+    "Creates a new Translation",
+    (yargs) => yargs.positional("translate", {
+      description: "The content of the translation",
       type: "string",
     }),
-    (argv) => console.log(argv.note)
+    (argv) => console.log(argv.translate)
   )
     .parse()
