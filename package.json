@@ -5,7 +5,7 @@
   "type": "module",
   "private": false,
   "bin": {
-    "note": "./index.ts"
+    "translate": "./index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
