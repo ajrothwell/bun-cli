@@ -1,15 +1,15 @@
 # bun-cli
 
-To install dependencies:
+This is the first test to run auto-translation from a CLI.
 
-```bash
-bun install
-```
+It is in npm at https://www.npmjs.com/package/@mugstorecowboy/bun-cli
 
-To run:
+it can be tested on the original project https://github.com/ajrothwell/auto-translator
 
-```bash
-bun run index.ts
-```
+the steps are:
 
-This project was created using `bun init` in bun v1.2.20. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+1. clone that project - https://github.com/ajrothwell/auto-translator
+2. get a complete version of the en.json from that project and replace the empty one import/en.json with that complete one.  Do not commit this complete one to the repo
+3. run npm i -g @mugstorecowboy/bun-cli
+4. in the auto-translate folder, run "translate"
+
